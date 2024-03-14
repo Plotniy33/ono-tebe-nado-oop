@@ -148,7 +148,7 @@ export class Auction extends Component<AuctionStatus> {
 		this._button = ensureElement<HTMLButtonElement>(`.button`, container);
 		this._input = ensureElement<HTMLInputElement>(`.form__input`, container);
 		this._bids = ensureElement<HTMLElement>(`.lot__history-bids`, container);
-		this._history = ensureElement<HTMLElement>('.lot__history', container);
+		this._history = ensureElement<HTMLElement>(`.lot__history`, container);
 		this._form = ensureElement<HTMLFormElement>(`.lot__bid`, container);
 
 		this._form.addEventListener('submit', (event) => {
